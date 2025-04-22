@@ -1,0 +1,8 @@
+version=1
+id=3466949628
+title=DJG's Bound planks
+description=Simple mod to bound planks together to reduce encumberance.
+description=This mod will allow the player to bound 10 planks together using 1 rope or 1 shee rope.
+description=The encumberance will be reduced to 6.
+tags=Build 41
+visibility=public
