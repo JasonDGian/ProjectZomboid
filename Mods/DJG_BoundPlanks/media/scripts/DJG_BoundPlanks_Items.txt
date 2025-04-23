@@ -14,7 +14,7 @@ module DJG_BoundPlanks
         Icon            = BoundPlanks,
         Weight          = 8.0,
         Count           = 1,
-        WorldStaticModel = Plank,
+        WorldStaticModel = BoundPlanks,
     }
 
 }
