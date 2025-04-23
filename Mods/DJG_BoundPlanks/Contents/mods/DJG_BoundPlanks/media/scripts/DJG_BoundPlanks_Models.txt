@@ -1,0 +1,9 @@
+module DJG_BoundPlanks
+{
+    model BoundPlanks
+    {
+        mesh = BoundPlanks,
+        texture = BoundPlanks,
+        scale = 0.01
+    }
+}

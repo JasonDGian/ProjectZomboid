@@ -1,0 +1,20 @@
+module DJG_BoundPlanks
+{
+
+    imports
+    {
+        Base
+    }
+
+    item BoundPlanks
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound planks,
+        Icon            = BoundPlanks,
+        Weight          = 8.0,
+        Count           = 1,
+        WorldStaticModel = BoundPlanks,
+    }
+
+}
