@@ -1,0 +1,391 @@
+module Base
+{
+
+    recipe BindLeadPipes5
+    {
+        LeadPipe=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindLeadPipes,
+        Result:BoundLeadPipes5,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindLeadPipes10
+    {
+        LeadPipe=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindLeadPipes,
+        Result:BoundLeadPipes10,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindLeadPipes20
+    {
+        LeadPipe=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindLeadPipes,
+        Result:BoundLeadPipes20,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindLeadPipes5
+    {
+        BoundLeadPipes5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindLeadPipes,
+        Result: LeadPipe=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindLeadPipes10
+    {
+        BoundLeadPipes10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindLeadPipes,
+        Result: LeadPipe=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindLeadPipes20
+    {
+        BoundLeadPipes20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindLeadPipes,
+        Result: LeadPipe=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindMetalPipes5
+    {
+        MetalPipe=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalPipes,
+        Result:BoundMetalPipes5,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindMetalPipes10
+    {
+        MetalPipe=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalPipes,
+        Result:BoundMetalPipes10,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindMetalPipes20
+    {
+        MetalPipe=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalPipes,
+        Result:BoundMetalPipes20,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalPipes5
+    {
+        BoundMetalPipes5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalPipes,
+        Result: MetalPipe=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalPipes10
+    {
+        BoundMetalPipes10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalPipes,
+        Result: MetalPipe=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalPipes20
+    {
+        BoundMetalPipes20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalPipes,
+        Result: MetalPipe=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindSheetMetal5
+    {
+        SheetMetal=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSheetMetal,
+        Result:BoundMetalSheets5,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindSheetMetal10
+    {
+        SheetMetal=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSheetMetal,
+        Result:BoundMetalSheets10,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindSheetMetal20
+    {
+        SheetMetal=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSheetMetal,
+        Result:BoundMetalSheets20,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindSheetMetal5
+    {
+        BoundMetalSheets5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSheetMetal,
+        Result: SheetMetal=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindSheetMetal10
+    {
+        BoundMetalSheets10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSheetMetal,
+        Result: SheetMetal=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+
+
+    recipe UnbindSheetMetal20
+    {
+        BoundMetalSheets20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSheetMetal,
+        Result: SheetMetal=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindPlanks5
+    {
+        Plank=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindPlanks,
+        Result:BoundPlanks5,
+        Sound:LogAddToStack,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindPlanks10
+    {
+        Plank=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindPlanks,
+        Result:BoundPlanks10,
+        Sound:LogAddToStack,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindPlanks20
+    {
+        Plank=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindPlanks,
+        Result:BoundPlanks20,
+        Sound:LogAddToStack,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindPlanks5
+    {
+        BoundPlanks5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindPlanks,
+        Result: Plank=5,
+        Time:20.0,
+        Category: Organize,
+        Sound:LogRemoveFromStack,
+    }
+
+    recipe UnbindPlanks10
+    {
+        BoundPlanks10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindPlanks,
+        Result: Plank=10,
+        Time:20.0,
+        Category: Organize,
+        Sound:LogRemoveFromStack,
+    }
+
+
+    recipe UnbindPlanks20
+    {
+        BoundPlanks20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindPlanks,
+        Result: Plank=20,
+        Time:20.0,
+        Category: Organize,
+        Sound:LogRemoveFromStack,
+    }
+
+    recipe BindSmallSheetMetal5
+    {
+        SmallSheetMetal=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSmallSheetMetal,
+        Result:BoundSmallMetalSheets5,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindSmallSheetMetal10
+    {
+        SmallSheetMetal=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSmallSheetMetal,
+        Result:BoundSmallMetalSheets10,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindSmallSheetMetal20
+    {
+        SmallSheetMetal=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindSmallSheetMetal,
+        Result:BoundSmallMetalSheets20,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindSmallSheetMetal5
+    {
+        BoundSmallMetalSheets5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSmallSheetMetal,
+        Result: SmallSheetMetal=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindSmallSheetMetal10
+    {
+        BoundSmallMetalSheets10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSmallSheetMetal,
+        Result: SmallSheetMetal=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindSmallSheetMetal20
+    {
+        BoundSmallMetalSheets20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindSmallSheetMetal,
+        Result: SmallSheetMetal=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindTreeBranches5
+    {
+        TreeBranch=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindTreeBranches,
+        Result:BoundTreeBranches5,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindTreeBranches10
+    {
+        TreeBranch=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindTreeBranches,
+        Result:BoundTreeBranches10,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe BindTreeBranches20
+    {
+        TreeBranch=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindTreeBranches,
+        Result:BoundTreeBranches20,
+        Time:35.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTreeBranches5
+    {
+        BoundTreeBranches5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindTreeBranches,
+        Result: TreeBranch=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTreeBranches10
+    {
+        BoundTreeBranches10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindTreeBranches,
+        Result: TreeBranch=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTreeBranches20
+    {
+        BoundTreeBranches20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindTreeBranches,
+        Result: TreeBranch=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+}

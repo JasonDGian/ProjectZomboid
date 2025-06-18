@@ -1,0 +1,100 @@
+module Base
+{
+    model DJG_BoundPlanks5
+    {
+        mesh = DJG_BoundPlanks5,
+        texture = DJG_BoundPlanks,
+        scale = 0.01
+    }
+
+    model DJG_BoundPlanks10
+    {
+        mesh = DJG_BoundPlanks10,
+        texture = DJG_BoundPlanks,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalSheets5
+    {
+        mesh = DJG_BoundMetalSheets5,
+        texture = DJG_BoundMetalSheets,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalSheets10
+    {
+        mesh = DJG_BoundMetalSheets10,
+        texture = DJG_BoundMetalSheets,
+        scale = 0.01
+    }
+
+    model DJG_BoundSmallMetalSheets5
+    {
+        mesh = DJG_BoundSmallMetalSheets5,
+        texture = DJG_BoundMetalSheets,
+        scale = 0.01
+    }
+
+    model DJG_BoundSmallMetalSheets10
+    {
+        mesh = DJG_BoundSmallMetalSheets10,
+        texture = DJG_BoundMetalSheets,
+        scale = 0.01
+    }
+
+    model DJG_BoundTreeBranches5
+    {
+        mesh = DJG_BoundTreeBranches,
+        texture = DJG_BoundBranch,
+        scale = 0.01
+    }
+
+    model DJG_BoundTreeBranches10
+    {
+        mesh = DJG_BoundTreeBranches10,
+        texture = DJG_BoundBranch,
+        scale = 0.01
+    }
+
+    model DJG_BoundLeadPipes5
+    {
+        mesh = DJG_BoundLeadPipes5,
+        texture = DJG_LeadPipe,
+        scale = 0.01
+    }
+
+    model DJG_BoundLeadPipes10
+    {
+        mesh = DJG_BoundLeadPipes10,
+        texture = DJG_LeadPipe,
+        scale = 0.01
+    }
+
+    model DJG_BoundLeadPipes20
+    {
+        mesh = DJG_BoundLeadPipes10,
+        texture = DJG_LeadPipe,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalPipes5
+    {
+        mesh = DJG_BoundLeadPipes5,
+        texture = DJG_MetalPipe,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalPipes10
+    {
+        mesh = DJG_BoundLeadPipes10,
+        texture = DJG_MetalPipe,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalPipes20
+    {
+        mesh = DJG_BoundLeadPipes10,
+        texture = DJG_MetalPipe,
+        scale = 0.01
+    }
+}

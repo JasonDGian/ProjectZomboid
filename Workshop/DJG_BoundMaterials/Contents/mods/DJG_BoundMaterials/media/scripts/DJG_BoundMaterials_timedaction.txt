@@ -1,0 +1,11 @@
+module Base {
+
+    timedAction BindMaterials
+    {
+        metabolics      = LightWork,
+        actionAnim      = Loot,
+        animVarKey      = LootPosition,
+        animVarVal      = Low,
+    }
+
+}
