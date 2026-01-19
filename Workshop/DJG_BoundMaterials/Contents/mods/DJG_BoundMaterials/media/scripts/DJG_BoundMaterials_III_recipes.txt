@@ -1,0 +1,131 @@
+module Base
+{
+
+    recipe BindWoodenSticks5
+    {
+        WoodenStick=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundWoodenStick5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindWoodenSticks10
+    {
+        WoodenStick=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundWoodenStick10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindWoodenSticks20
+    {
+        WoodenStick=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundWoodenStick20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindWoodenSticks5
+    {
+        BoundWoodenStick5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: WoodenStick=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindWoodenSticks10
+    {
+        BoundWoodenStick10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: WoodenStick=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindWoodenSticks20
+    {
+        BoundWoodenStick20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: WoodenStick=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+
+    recipe BindTwigs5
+    {
+        Twigs=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundTwigs5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindTwigs10
+    {
+        Twigs=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundTwigs10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindTwigs20
+    {
+        Twigs=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindWoodenSticks,
+        Result:BoundTwigs20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTwigs5
+    {
+        BindTwigs5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: Twigs=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTwigs10
+    {
+        BindTwigs10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: Twigs=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindTwigs20
+    {
+        BindTwigs20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindWoodenSticks,
+        Result: Twigs=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+}

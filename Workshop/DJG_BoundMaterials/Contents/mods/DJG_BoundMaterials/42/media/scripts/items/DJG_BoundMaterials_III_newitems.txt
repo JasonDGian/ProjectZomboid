@@ -1,0 +1,54 @@
+module Base
+{
+
+    item BoundWoodenStick5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 4,
+        WorldStaticModel = DJG_BoundSturdyStick5,
+    }
+
+    item BoundWoodenStick10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 8,
+        WorldStaticModel = DJG_BoundSturdyStick10,
+    }
+
+    item BoundWoodenStick20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 16,
+        WorldStaticModel = DJG_BoundSturdyStick20,
+    }
+    item BoundTwigs5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundTwigs,
+        Weight          = 0.4,
+        WorldStaticModel = DJG_BoundTwigs5,
+    }
+    item BoundTwigs10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundTwigs,
+        Weight          = 0.8,
+        WorldStaticModel = DJG_BoundTwigs10,
+    }
+    item BoundTwigs20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon            = DJG_BoundTwigs,
+        Weight          = 1.6,
+        WorldStaticModel = DJG_BoundTwigs20,
+    }
+}

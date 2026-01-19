@@ -1,0 +1,43 @@
+module Base
+{
+    model DJG_BoundSturdyStick5
+    {
+        mesh = DJG_BoundSturdyStick5,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+    model DJG_BoundSturdyStick10
+    {
+        mesh = DJG_BoundSturdyStick10,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+
+    model DJG_BoundSturdyStick20
+    {
+        mesh = DJG_BoundSturdyStick20,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+
+    model DJG_BoundTwigs5
+    {
+        mesh = DJG_BoundTwigs5,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+
+    model DJG_BoundTwigs10
+    {
+        mesh = DJG_BoundTwigs10,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+
+    model DJG_BoundTwigs20
+    {
+        mesh = DJG_BoundTwigs20,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+}

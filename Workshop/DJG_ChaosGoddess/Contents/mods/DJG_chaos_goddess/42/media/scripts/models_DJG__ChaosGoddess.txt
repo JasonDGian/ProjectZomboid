@@ -1,0 +1,24 @@
+module Base
+{
+
+    model NecoArcFigureGround
+    {
+        mesh  = NecoArcFigureGround,
+        texture = Neco_Arc_Palette,
+        scale = 1
+    }
+
+    model NecoArcFigureWeapon
+    {
+        mesh  = NecoArcFigureWeapon,
+        texture = Neco_Arc_Palette,
+        scale = 1
+    }
+
+    model NecoArcFigureGroundL
+    {
+        mesh  = NecoArcFigureGroundL,
+        texture = Neco_Arc_Palette,
+        scale = 1
+    }
+}

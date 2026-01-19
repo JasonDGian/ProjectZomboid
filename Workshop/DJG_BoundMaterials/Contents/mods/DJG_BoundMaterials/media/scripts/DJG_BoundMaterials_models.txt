@@ -10,9 +10,21 @@ module Base
     model DJG_BoundPlanks10
     {
         mesh = DJG_BoundPlanks10,
-        texture = DJG_BoundPlanks,
+        texture = DJG_BoundPlanksII,
         scale = 0.01
     }
+    model DJG_BoundPlanks20
+    {
+        mesh = DJG_BoundPlanks20,
+        texture = DJG_BoundPlanksII,
+        scale = 0.01
+    }  
+    model DJG_BoundPlanks20b
+    {
+        mesh = DJG_BoundPlanks20b,
+        texture = DJG_BoundPlanksIII,
+        scale = 0.01
+    }      
 
     model DJG_BoundMetalSheets5
     {
@@ -97,4 +109,67 @@ module Base
         texture = DJG_MetalPipe,
         scale = 0.01
     }
+
+    model DJG_BoundMetalBars5
+    {
+        mesh = DJG_BoundMetalBars5,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalBars10
+    {
+        mesh = DJG_BoundMetalBars10,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+
+    model DJG_BoundMetalBars20
+    {
+        mesh = DJG_BoundMetalBars10,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+    model DJG_BoundSturdyStick5
+    {
+        mesh = DJG_BoundSturdyStick5,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+    model DJG_BoundSturdyStick10
+    {
+        mesh = DJG_BoundSturdyStick10,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+
+    model DJG_BoundSturdyStick20
+    {
+        mesh = DJG_BoundSturdyStick20,
+        texture = DJG_SturdyStick,
+        scale = 0.01
+    }
+
+
+    model DJG_BoundTwigs5
+    {
+        mesh = DJG_BoundTwigs5,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+
+    model DJG_BoundTwigs10
+    {
+        mesh = DJG_BoundTwigs10,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+
+    model DJG_BoundTwigs20
+    {
+        mesh = DJG_BoundTwigs20,
+        texture = DJG_BoundTwigs,
+        scale = 0.01
+    }
+
 }

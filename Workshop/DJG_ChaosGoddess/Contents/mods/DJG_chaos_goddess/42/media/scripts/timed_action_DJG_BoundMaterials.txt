@@ -1,0 +1,8 @@
+module Base {
+    timedAction MakeFigureWeapon
+    {
+        metabolics      = Default,
+        prop2           = Base.Plank
+        actionAnim = CraftWeapon2H,
+    }
+}

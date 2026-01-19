@@ -1,0 +1,35 @@
+module Base
+{
+    item BoundMetalBars5
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound metal bars (x5),
+        Icon            = DJG_BoundMetalBars,
+        Weight          = 3,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundMetalBars5,
+    }
+
+    item BoundMetalBars10
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound metal bars (x10),
+        Icon            = DJG_BoundMetalBars,
+        Weight          = 6,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundMetalBars10,
+    }
+
+    item BoundMetalBars20
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound metal bars (x20),
+        Icon            = DJG_BoundMetalBars,
+        Weight          = 12,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundMetalBars20,
+    }
+}

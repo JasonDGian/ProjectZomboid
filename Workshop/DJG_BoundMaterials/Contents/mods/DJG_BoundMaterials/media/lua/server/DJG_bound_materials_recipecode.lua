@@ -120,3 +120,21 @@ end
 function Recipe.OnCreate.UnbindMetalPipes(items, result, player)
     unbindRopeItems(items, player, "metalPipeRopeItems")
 end
+
+-- Metal Bars
+function Recipe.OnCreate.BindMetalBars(items, result, player)
+bindRopeItems(items, result, "Base.MetalBar", "metalBarRopeItems", player)
+end
+
+function Recipe.OnCreate.UnbindMetalBars(items, result, player)
+unbindRopeItems(items, player, "metalBarRopeItems")
+end
+
+-- Sturdy sticks
+function Recipe.OnCreate.BindWoodenSticks(items, result, player)
+bindRopeItems(items, result, "Base.WoodenStick", "woodenStickRopeItems", player)
+end
+
+function Recipe.OnCreate.UnbindWoodenSticks(items, result, player)
+unbindRopeItems(items, player, "woodenStickRopeItems")
+end

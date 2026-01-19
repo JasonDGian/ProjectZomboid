@@ -1,0 +1,192 @@
+module Base
+{
+
+    item BoundPlanks5
+    {
+        ItemType = base:normal,
+        DisplayCategory = Material,
+        DisplayName     = Bound planks (x5),
+        Icon            = DJG_BoundPlanks,
+        Weight          = 7.5,
+        WorldStaticModel = DJG_BoundPlanks5,
+    }
+
+    item BoundPlanks10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound planks (x10),
+        Icon            = DJG_BoundPlanks,
+        Weight          = 15,
+        WorldStaticModel = DJG_BoundPlanks10,
+    }
+
+    item BoundPlanks20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound planks (x20),
+        Icon            = DJG_BoundPlanks,
+        Weight          = 25,
+        WorldStaticModel = DJG_BoundPlanks20,
+    }
+
+    item BoundMetalSheets5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal sheets (x5),
+        Icon            = DJG_BoundMetalSheets,
+        Weight          = 4.5,
+        WorldStaticModel = DJG_BoundMetalSheets5,
+    }
+
+    item BoundMetalSheets10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal sheets (x10),
+        Icon            = DJG_BoundMetalSheets,
+        Weight          = 9,
+        WorldStaticModel = DJG_BoundMetalSheets10,
+    }
+
+
+    item BoundMetalSheets20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal sheets (x20),
+        Icon            = DJG_BoundMetalSheets,
+        Weight          = 18,
+        WorldStaticModel = DJG_BoundMetalSheets10,
+    }
+
+    item BoundSmallMetalSheets5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound small metal sheets (x5),
+        Icon            = DJG_BoundSmallMetalSheets,
+        Weight          = 1.2,
+        WorldStaticModel = DJG_BoundSmallMetalSheets5,
+    }
+
+    item BoundSmallMetalSheets10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound small metal sheets (x10),
+        Icon            = DJG_BoundSmallMetalSheets,
+        Weight          = 2.4,
+        WorldStaticModel = DJG_BoundSmallMetalSheets10,
+    }
+
+    item BoundSmallMetalSheets20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound small metal sheets (x20),
+        Icon            = DJG_BoundSmallMetalSheets,
+        Weight          = 4.8,
+        WorldStaticModel = DJG_BoundSmallMetalSheets10,
+    }
+
+    item BoundTreeBranches5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound tree branches (x5),
+        Icon            = DJG_BoundTreeBranches,
+        Weight          = 4.5,
+        WorldStaticModel = DJG_BoundTreeBranches5,
+    }
+
+
+    item BoundTreeBranches10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound tree branches (x10),
+        Icon            = DJG_BoundTreeBranches,
+        Weight          = 9,
+        WorldStaticModel = DJG_BoundTreeBranches10,
+    }
+
+
+    item BoundTreeBranches20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound tree branches (x20),
+        Icon            = DJG_BoundTreeBranches,
+        Weight          = 18,
+        WorldStaticModel = DJG_BoundTreeBranches10,
+    }
+
+    item BoundLeadPipes5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound lead pipes (x5),
+        Icon            = DJG_BoundLeadPipes,
+        Weight          = 4.5,
+        WorldStaticModel = DJG_BoundLeadPipes5,
+    }
+
+
+    item BoundLeadPipes10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound lead pipes (x10),
+        Icon            = DJG_BoundLeadPipes,
+        Weight          = 9,
+        WorldStaticModel = DJG_BoundLeadPipes10,
+    }
+
+    item BoundLeadPipes20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound lead pipes (x20),
+        Icon            = DJG_BoundLeadPipes,
+        Weight          = 18,
+        WorldStaticModel = DJG_BoundLeadPipes20,
+    }
+
+
+    item BoundMetalPipes5
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal pipes (x5),
+        Icon            = DJG_BoundMetalPipes,
+        Weight          = 4.5,
+        WorldStaticModel = DJG_BoundMetalPipes5,
+    }
+
+
+    item BoundMetalPipes10
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal pipes (x10),
+        Icon            = DJG_BoundMetalPipes,
+        Weight          = 9,
+        WorldStaticModel = DJG_BoundMetalPipes10,
+    }
+
+    item BoundMetalPipes20
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName     = Bound metal pipes (x20),
+        Icon            = DJG_BoundMetalPipes,
+        Weight          = 18,
+        WorldStaticModel = DJG_BoundMetalPipes20,
+    }
+
+
+
+}

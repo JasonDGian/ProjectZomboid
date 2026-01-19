@@ -1,0 +1,9 @@
+modversion=2.0.0
+name=DJG Chaos goddess
+id=DJG_ChaosGoddess
+description=Allows the player to craft the goddes of chaos weapon figure a.k.a Neco-arc.
+poster=poster.png
+icon=icon.png
+category=weaponry
+author=JasonDGian
+url=https://github.com/JasonDGian/ProjectZomboid

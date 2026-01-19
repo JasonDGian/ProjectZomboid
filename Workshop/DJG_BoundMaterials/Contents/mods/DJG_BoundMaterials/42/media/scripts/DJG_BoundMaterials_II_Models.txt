@@ -1,0 +1,21 @@
+module Base
+{
+    model DJG_BoundMetalBars5
+    {
+        mesh = DJG_BoundMetalBars5,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+    model DJG_BoundMetalBars10
+    {
+        mesh = DJG_BoundMetalBars10,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+    model DJG_BoundMetalBars20
+    {
+        mesh = DJG_BoundMetalBars10,
+        texture = DJG_MetalBar,
+        scale = 0.01
+    }
+}

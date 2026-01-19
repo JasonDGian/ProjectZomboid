@@ -1,6 +1,10 @@
+modversion=2.0.2
 name=DJG Bound Materials
 id=DJG_BoundMaterials
-description=Allows the player to bind materials together and reduce encumberance.
+description=Allows binding and unbinding of materials using rope. 
+description=Updated for Build 42 to fix Lua load-order issues and ensure recipe compatibility.
 poster=poster.png
-version=1.0
-category=items
+icon=icon.png
+category=other
+author=JasonDGian
+homepage=https://github.com/JasonDGian/ProjectZomboid

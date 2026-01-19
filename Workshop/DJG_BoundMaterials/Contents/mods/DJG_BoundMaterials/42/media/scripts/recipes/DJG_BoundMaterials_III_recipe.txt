@@ -1,0 +1,207 @@
+module Base
+{
+    craftRecipe BindWoodenRod5
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindWoodenRod,
+        inputs
+        {
+            item 5 [Base.WoodenStick2],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundWoodenStick5,
+       }
+    }
+
+    craftRecipe UnbindWoodenRod5
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindWoodenRod,
+        inputs
+        {
+            item 1 [Base.BoundWoodenStick5],
+        }
+       outputs
+       {
+        item 5 Base.WoodenStick2,
+       }
+    }
+    craftRecipe BindWoodenRod10
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindWoodenRod,
+        inputs
+        {
+            item 10 [Base.WoodenStick2],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundWoodenStick10,
+       }
+    }
+
+    craftRecipe UnbindWoodenRod10
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindWoodenRod,
+        inputs
+        {
+            item 1 [Base.BoundWoodenStick10],
+        }
+       outputs
+       {
+        item 10 Base.WoodenStick2,
+       }
+    }
+    craftRecipe BindWoodenRod20
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindWoodenRod,
+        inputs
+        {
+            item 20 [Base.WoodenStick2],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundWoodenStick20,
+       }
+    }
+
+    craftRecipe UnbindWoodenRod20
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindWoodenRod,
+        inputs
+        {
+            item 1 [Base.BoundWoodenStick20],
+        }
+       outputs
+       {
+        item 20 Base.WoodenStick2,
+       }
+    }
+    craftRecipe BindTwigs5
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindTwigs,
+        inputs
+        {
+            item 5 [Base.Twigs],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundTwigs5,
+       }
+    }
+
+    craftRecipe UnbindTwigs5
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindTwigs,
+        inputs
+        {
+            item 1 [Base.BoundTwigs5],
+        }
+       outputs
+       {
+        item 5 Base.Twigs,
+       }
+    }
+    craftRecipe BindTwigs10
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindTwigs,
+        inputs
+        {
+            item 10 [Base.Twigs],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundTwigs10,
+       }
+    }
+
+    craftRecipe UnbindTwigs10
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindTwigs,
+        inputs
+        {
+            item 1 [Base.BoundTwigs10],
+        }
+       outputs
+       {
+        item 10 Base.Twigs,
+       }
+    }
+    craftRecipe BindTwigs20
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindTwigs,
+        inputs
+        {
+            item 20 [Base.Twigs],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundTwigs20,
+       }
+    }
+
+    craftRecipe UnbindTwigs20
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindTwigs,
+        inputs
+        {
+            item 1 [Base.BoundTwigs20],
+        }
+       outputs
+       {
+        item 20 Base.Twigs,
+       }
+    }
+}

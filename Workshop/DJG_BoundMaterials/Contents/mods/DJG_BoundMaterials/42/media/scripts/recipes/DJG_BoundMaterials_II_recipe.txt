@@ -1,0 +1,108 @@
+module Base
+{
+    craftRecipe BindMetalBars5
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindMetalBars,
+        inputs
+        {
+            item 5 [Base.MetalBar],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundMetalBars5,
+       }
+    }
+
+    craftRecipe UnbindMetalBars5
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindMetalBars,
+        inputs
+        {
+            item 1 [Base.BoundMetalBars5],
+        }
+       outputs
+       {
+        item 5 Base.MetalBar,
+       }
+    }
+
+    craftRecipe BindMetalBars10
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindMetalBars,
+        inputs
+        {
+            item 10 [Base.MetalBar],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundMetalBars10,
+       }
+    }
+
+    craftRecipe UnbindMetalBars10
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindMetalBars,
+        inputs
+        {
+            item 1 [Base.BoundMetalBars10],
+        }
+       outputs
+       {
+        item 10 Base.MetalBar,
+       }
+    }
+
+    craftRecipe BindMetalBars20
+    {
+        timedAction = BindMaterials,
+        time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.BindMetalBars,
+        inputs
+        {
+            item 20 [Base.MetalBar],
+            item 1 [Base.Rope;Base.SheetRope],
+        }
+       outputs
+       {
+        item 1 Base.BoundMetalBars20,
+       }
+    }
+
+    craftRecipe UnbindMetalBars20
+    {
+        timedAction = BindMaterials,
+        time            = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,CanBeDoneInDark,
+        category = Organize,
+        OnCreate = Recipe.OnCreate.UnbindMetalBars,
+        inputs
+        {
+            item 1 [Base.BoundMetalBars20],
+        }
+       outputs
+       {
+        item 20 Base.MetalBar,
+       }
+    }
+
+}

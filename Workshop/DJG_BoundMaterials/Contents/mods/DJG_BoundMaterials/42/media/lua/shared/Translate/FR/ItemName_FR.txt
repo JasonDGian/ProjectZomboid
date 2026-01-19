@@ -17,4 +17,10 @@ ItemName_FR = {
     ItemName_Base.BoundMetalPipes5 = "Tuyaux en métal liés (x5)",
     ItemName_Base.BoundMetalPipes10 = "Tuyaux en métal liés (x10)",
     ItemName_Base.BoundMetalPipes20 = "Tuyaux en métal liés (x20)",
+    ItemName_Base.BoundWoodenStick5 = "Bâtons en bois liés (x5)",
+    ItemName_Base.BoundWoodenStick10 = "Bâtons en bois liés (x10)",
+    ItemName_Base.BoundWoodenStick20 = "Bâtons en bois liés (x20)",
+    ItemName_Base.BoundTwigs5 = "Brindilles liées (x5)",
+    ItemName_Base.BoundTwigs10 = "Brindilles liées (x10)",
+    ItemName_Base.BoundTwigs20 = "Brindilles liées (x20)",
 }

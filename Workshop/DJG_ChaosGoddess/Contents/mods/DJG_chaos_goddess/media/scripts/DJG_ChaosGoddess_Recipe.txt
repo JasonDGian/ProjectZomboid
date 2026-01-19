@@ -1,0 +1,14 @@
+module Base
+{
+
+    recipe Sculpt chaos goddess figure
+    {
+        Plank=1,
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Result:NecoArcFigure,
+        Time:30.0,
+        Category: Junk,
+        OnCreate:necoGreetSound
+    }
+
+}

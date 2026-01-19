@@ -1,0 +1,69 @@
+module Base
+{
+
+    recipe BindMetalBars5
+    {
+        MetalBar=5,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalBars,
+        Result:BoundMetalBars5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindMetalBars10
+    {
+        MetalBar=10,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalBars,
+        Result:BoundMetalBars10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe BindMetalBars20
+    {
+        MetalBar=20,
+        Base.SheetRope/Base.Rope,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.BindMetalBars,
+        Result:BoundMetalBars20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalBars5
+    {
+        BoundMetalBars5=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalBars,
+        Result: MetalBar=5,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalBars10
+    {
+        BoundMetalBars10=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalBars,
+        Result: MetalBar=10,
+        Time:20.0,
+        Category: Organize,
+    }
+
+    recipe UnbindMetalBars20
+    {
+        BoundMetalBars20=1,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.UnbindMetalBars,
+        Result: MetalBar=20,
+        Time:20.0,
+        Category: Organize,
+    }
+
+
+
+}

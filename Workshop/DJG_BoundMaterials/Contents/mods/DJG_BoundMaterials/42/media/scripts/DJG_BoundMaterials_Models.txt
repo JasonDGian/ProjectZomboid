@@ -10,10 +10,16 @@ module Base
     model DJG_BoundPlanks10
     {
         mesh = DJG_BoundPlanks10,
-        texture = DJG_BoundPlanks,
+        texture = DJG_BoundPlanksIII,
         scale = 0.01
     }
 
+    model DJG_BoundPlanks20
+    {
+        mesh = DJG_BoundPlanks20,
+        texture = DJG_BoundPlanksIII,
+        scale = 0.01
+    }
     model DJG_BoundMetalSheets5
     {
         mesh = DJG_BoundMetalSheets5,

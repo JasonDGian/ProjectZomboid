@@ -1,0 +1,8 @@
+module Base
+{
+    sound
+    {
+        name = buranyuuu
+        file = buranyuuu.ogg
+    }
+}

@@ -17,4 +17,10 @@ ItemName_EN = {
     ItemName_Base.BoundMetalPipes5 = "Bound metal pipes (x5)",
     ItemName_Base.BoundMetalPipes10 = "Bound metal pipes (x10)",
     ItemName_Base.BoundMetalPipes20 = "Bound metal pipes (x20)",
+    ItemName_Base.BoundWoodenStick5 = "Bound wooden rods (x5)",
+    ItemName_Base.BoundWoodenStick10 = "Bound wooden rods (x10)",
+    ItemName_Base.BoundWoodenStick20 = "Bound wooden rods (x20)",
+    ItemName_Base.BoundTwigs5 = "Bound twigs (x5)",
+    ItemName_Base.BoundTwigs10 = "Bound twigs (x10)",
+    ItemName_Base.BoundTwigs20 = "Bound twigs (x20)",
 }

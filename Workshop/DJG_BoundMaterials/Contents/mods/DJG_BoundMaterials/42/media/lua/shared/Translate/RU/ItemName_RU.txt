@@ -17,4 +17,10 @@ ItemName_RU = {
     ItemName_Base.BoundMetalPipes5 = "Связанные металлические трубы (x5)",
     ItemName_Base.BoundMetalPipes10 = "Связанные металлические трубы (x10)",
     ItemName_Base.BoundMetalPipes20 = "Связанные металлические трубы (x20)",
+    ItemName_Base.BoundWoodenStick5 = "Связанные деревянные стержни (x5)",
+    ItemName_Base.BoundWoodenStick10 = "Связанные деревянные стержни (x10)",
+    ItemName_Base.BoundWoodenStick20 = "Связанные деревянные стержни (x20)",
+    ItemName_Base.BoundTwigs5 = "Связанные прутья (x5)",
+    ItemName_Base.BoundTwigs10 = "Связанные прутья (x10)",
+    ItemName_Base.BoundTwigs20 = "Связанные прутья (x20)",
 }

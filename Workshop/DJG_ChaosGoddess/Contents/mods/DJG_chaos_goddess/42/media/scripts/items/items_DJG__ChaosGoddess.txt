@@ -1,0 +1,57 @@
+
+module Base
+{
+
+    item NecoArcFigure
+    {
+		WorldStaticModel = NecoArcFigureGround,
+		Tags = KillAnimal,
+    }
+
+	    item NecoArcFigure
+    {
+        DisplayCategory = Junk,
+        ItemType = base:weapon,
+        Weight = 0.1,
+        Icon = NecoArcFigure,
+        AttachmentType = BigWeapon,
+        BaseSpeed = 1.5,
+        BreakSound = IronBarBreak,
+        Categories = base:improvised;base:smallblunt,
+        ConditionLowerChanceOneIn = 25,
+        ConditionMax = 16,
+        CritDmgMultiplier = 2.0,
+        CriticalChance = 33.0,
+        DoorDamage = 10,
+        DoorHitSound = IronBarHit,
+        DropSound = IronBarDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = IronBarHit,
+        HitSound = IronBarHit,
+        IdleAnim = Idle_Weapon2,
+        KnockBackOnNoDeath = true,
+		SplatBloodOnNoDeath = false,
+        KnockdownMod = 2.0,
+        MaxDamage = 2,
+        MaxHitcount = 3,
+        MaxRange = 1.25,
+        MetalValue = 150.0,
+        MinAngle = 0.7,
+        MinDamage = 1,
+        MinRange = 0.2,
+		MinimumSwingTime = 0.8,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        SubCategory = Swinging,
+		SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = IronBarSwing,
+        Swingtime = 0.5,
+        TreeDamage = 20,
+        TwoHandWeapon = false,
+        WeaponLength = 0.23,
+        WeaponSprite = NecoArcFigureWeapon,
+        Tags = base:hasmetal;base:ironmaterial;base:barstock;base:nomaintenancexp;base:smeltableironlarge,
+        OnBreak = OnBreak.NecoArc,
+    }
+}

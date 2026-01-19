@@ -1,0 +1,7 @@
+version=1
+id=3470922689
+title=DJG's Chaos Goddess
+description=Allows the player to craft the goddes of chaos weapon figure a.k.a Neco-arc.
+description=Completely unbalanced and unserious blunt weapon mod.
+tags=Build 41;Build 42;Items;Misc;Multiplayer;Silly/Fun;WIP;Weapons
+visibility=public

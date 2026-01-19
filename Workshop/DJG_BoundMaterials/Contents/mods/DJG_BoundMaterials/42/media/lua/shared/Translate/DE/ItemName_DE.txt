@@ -17,4 +17,10 @@ ItemName_DE = {
     ItemName_Base.BoundMetalPipes5 = "Gebündelte Metallrohre (x5)",
     ItemName_Base.BoundMetalPipes10 = "Gebündelte Metallrohre (x10)",
     ItemName_Base.BoundMetalPipes20 = "Gebündelte Metallrohre (x20)",
+    ItemName_Base.BoundWoodenStick5 = "Gebündelte Holzstäbe (x5)",
+    ItemName_Base.BoundWoodenStick10 = "Gebündelte Holzstäbe (x10)",
+    ItemName_Base.BoundWoodenStick20 = "Gebündelte Holzstäbe (x20)",
+    ItemName_Base.BoundTwigs5 = "Gebundene Zweige (x5)",
+    ItemName_Base.BoundTwigs10 = "Gebundene Zweige (x10)",
+    ItemName_Base.BoundTwigs20 = "Gebundene Zweige (x20)",
 }

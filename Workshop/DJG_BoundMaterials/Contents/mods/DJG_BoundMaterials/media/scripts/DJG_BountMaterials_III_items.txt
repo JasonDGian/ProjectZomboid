@@ -1,0 +1,66 @@
+module Base
+{
+    item BoundWoodenStick5
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound sturdy sticks (x5),
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 2,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundSturdyStick5,
+    }
+
+    item BoundWoodenStick10
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound sturdy sticks (x10),
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 4,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundSturdyStick10,
+    }
+
+    item BoundWoodenStick20
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound sturdy sticks (x20),
+        Icon            = DJG_BoundSturdyStick,
+        Weight          = 8,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundSturdyStick20,
+    }
+
+    item BoundTwigs5
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound twigs (x5),
+        Icon            = DJG_BoundTwigs,
+        Weight          = 0.2,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundTwigs5,
+    }
+    item BoundTwigs10
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound twigs (x10),
+        Icon            = DJG_BoundTwigs,
+        Weight          = 0.4,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundTwigs10,
+    }
+    item BoundTwigs20
+    {
+        DisplayCategory = Material,
+        Type            = Normal,
+        DisplayName     = Bound twigs (x20),
+        Icon            = DJG_BoundTwigs,
+        Weight          = 0.8,
+        Count           = 1,
+        WorldStaticModel = DJG_BoundTwigs20,
+    }
+}
